@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.logo:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.btn-cart,
+.btn-favorite {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: black; 
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-favorite {
+    margin-left: 10px;
+}
+
+ .btn-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Estilos dos Filtros*/
+.col-md-3 {
+    flex: 0 0 auto;
+    max-width: none;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.form-select:focus {
+    outline: none;
+    border-color: #ced4da;
+    box-shadow: none;
+}
+
+/* Estilos para lancamentos */
+.col-md-3 {
+    flex: 0 0 25%; 
+    max-width: 25%; 
+    padding-right: 15px; 
+    padding-left: 15px; 
+}
+
+.highlights h2 {
+    font-size: 2rem; 
+    color: #333; 
+    margin-top: 30px; 
+    margin-bottom: auto;
+}
+
+/* Estilo para os produtos */
+.product {
+    display: flex; 
+    flex-direction: column; 
+    height: 100%; 
+}
+
+/* Estilo para o nome do produto */
+.product h3 {
+    font-size: 1.2rem; 
+    color: #333; 
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
+/* Estilo para o preço do produto */
+.product p {
+    font-size: 1.2rem; 
+    color: #666; 
+    margin-bottom: 15px; 
+}
+
+/* Estilo para o botão de compra */
+.product .btn-primary {
+    background-color: black; 
+    color: #fff; 
+    border-color: black; 
+    font-size: 1rem; 
+}
+
+/* Estilo para o botão de compra ao passar o mouse */
+.product .btn-primary:hover {
+    background-color: black; 
+    border-color: black; 
+}
+
+/* Estilos dos videos */
+.videos {
+    padding: 20px;
+    text-align: center;
+}
+
+.videos h2 {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.videos video {
+    width: 80%;
+    margin: 2.5%;
+    border-radius: 10px;
+}
+
+/* Estilos dos depoimentos */
+.testimonials {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonials p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.testimonials p:before {
+    text-align: center;
+    content: "\201C";
+    font-size: 40px;
+    color: #333;
+    position: absolute;
+    left: 400px;
+    top: -10px;
+}
+
+.testimonials p:after {
+    text-align: center;
+    content: "\201D";
+    font-size: 40px;
+    color: #333;
+    position: absolute;
+    right: 370px;
+    bottom: -30px;
+}
+
+.testimonials p:last-child {
+    margin-bottom: 0;
+}
+
+/* Estilos do blog */
+.blog {
+    margin-top: 30px;
+}
+
+.blog h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.blog article {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.blog article:hover {
+    transform: translateY(-5px);
+}
+
+.blog article h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog article p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.blog article a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.blog article a:hover {
+    background-color: black;
+}
+
+.blog article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.newsletter {
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.newsletter form
+
+
+/* Estilos para a lista de produtos */
+.col-md-9 {
+    margin-top: 40px !important;
+}
+.my-custom-margin-top {
+    margin-top: 40px;
+}
+
+.card {
+    margin-bottom: 10px; 
+}
+
+.card-img-top {
+    width: 100%; 
+}
+
+.btn-primary {
+    width: 100%; 
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+/* Estilo para os modais */
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #f0f0f0;
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-body p {
+    color: #666;
+}
+
+/* Estilo para o rodapé do modal */
+.modal-footer {
+    justify-content: space-between;
+}
+  
+  /* Estilo para o botão "Comprar" no modal */
+.modal-footer .btn-primary {
+    width: 45%;
+}
+  
+  /* Estilo para o botão "Fechar" no modal */
+.modal-footer .btn-secondary {
+    width: 45%;
+}
+
+/* Estilo para o rodapé do modal */
+.contact-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-input, .contact-textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-input:focus, .contact-textarea:focus {
+    border-color: black;
+    outline: none;
+    box-shadow: 0 0 5px black;
+}
+
+.contact-submit {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-submit:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para telas pequenas */
+@media (max-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%; 
+    }
+}
